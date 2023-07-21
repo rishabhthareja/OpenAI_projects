@@ -6,7 +6,6 @@ app = Flask(__name__)
 # Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
 openai_api_key = 'YOUR_OPENAI_API_KEY'
 
-#'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'
 
 # Function to generate code based on the selected language and problem statement
 def generate_code(language, problem_statement):
